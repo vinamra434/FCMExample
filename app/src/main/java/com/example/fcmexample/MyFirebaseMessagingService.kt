@@ -46,8 +46,10 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
                 .append("[Title: ${remoteMessage.notification?.title}]\n")
                 .append("[Body: ${remoteMessage.notification?.body}]")
                 .append("\n\n")
+        } else {
+            content.append("DATA")
         }
-        content.append("DATA")
+
         remoteMessage.data.entries.forEach {
             content.append("\n[${it.key}: ${it.value}]")
         }
