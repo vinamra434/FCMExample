@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FCM Example</string>
+    <string name="copy_device_token_to_clipboard">copy device token to clipboard</string>
+    <string name="this_page_is_only_accessible_via_notification">THIS PAGE IS ONLY ACCESSIBLE VIA NOTIFICATION</string>
+
+    <string name="data">Data</string>
+    <string name="notification">Notification</string>
+    <string name="notification_type">Notification Type</string>
+    <string name="enter_title">Enter title</string>
+    <string name="enter_body">Enter body</string>
+    <string name="enter_topic">Enter topic</string>
+    <string name="send_message">Send Message</string>
+
+<!--    error edittext-->
+    <string name="body_empty">Body is required</string>
+    <string name="topic_empty">Topic is required</string>
+
+</resources>
